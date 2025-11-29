@@ -9,9 +9,9 @@
     <script src="js/index.js"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="bg-neutral-900 text-white">
+<body class="bg-neutral-950 text-white">
     <!-- Navigation -->
-    <nav class="fixed w-full bg-neutral-900 backdrop-blur-sm z-50 border-b border-gray-800">
+    <nav class="fixed w-full bg-neutral-950 backdrop-blur-sm z-50 border-b border-neutral-900">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
                 <div class="text-2xl font-bold">
@@ -55,8 +55,8 @@
     <!-- Main Content -->
     <main>
         <!-- Hero Section -->
-        <section id="home" class="section pt-32 pb-20 px-4 sm:px-6 lg:px-8 mb-28">
-            <div class="max-w-7xl mx-auto">
+        <section id="home" class="section pt-32 pb-20 px-4 sm:px-6 lg:px-8  bg-gradient-to-b from-neutral-950 to-neutral-900">
+            <div class="max-w-7xl mx-auto mt-28">
                 <div class="flex flex-col md:flex-row items-center justify-between gap-12 mb-20">
                     <div class="flex-1 text-center md:text-left">
                         <h1 class="text-5xl md:text-7xl font-bold mb-6">
@@ -78,9 +78,9 @@
                         </div>
                     </div>
                     <div class="flex-1 flex justify-center">
-                        <div class="relative w-64 h-64 md:w-80 md:h-80">
-                            <div class="absolute inset-0 bg-gray-100 rounded-full blur-3xl opacity-20"></div>
-                            <img src="assets/images/icon.png" alt="Profile" class="relative w-full h-full object-cover rounded-full border-4 border-gray-100">
+                        <div class="relative w-64 h-64 md:w-80 md:h-80 absolute left-32">
+                            <div class="absolute  inset-0 bg-gray-100 rounded-full blur-3xl opacity-20"></div>
+                            <img src="assets/images/aprizal.png" alt="Profile" class="relative w-full h-full object-cover rounded-full border-4 border-gray-100">
                         </div>
                     </div>
                 </div>
@@ -88,20 +88,20 @@
         </section>
 
         <!-- About Section -->
-        <section id="about" class="section py-20 px-4 sm:px-6 lg:px-8 bg-gray-900">
-            <div class="max-w-7xl mx-auto">
-                <div class="flex items-center gap-3 mb-12">
-                    <svg class="text-red-600 w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <section id="about" class="section py-20 px-4 sm:px-6 lg:px-8 bg-neutral-900 ">
+            <div class="max-w-7xl mx-auto mb-28">
+                <div class="flex items-center gap-3 ">
+                    <svg class="text-red-600 w-8 h-8 mb-16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
                     </svg>
-                    <h2 class="text-4xl font-bold">About Me</h2>
+                    <h2 class="text-4xl text-white font-bold text-white mb-16">About Me</h2>
                 </div>
                 <div class="grid md:grid-cols-2 gap-12">
                     <div>
-                        <p class="text-gray-300 mb-6 leading-relaxed">
+                        <p class="text-neutral-400 mb-8 leading-relaxed">
                             I’m someone who’s growing toward my dream of becoming a software engineer. I enjoy learning new things, especially in web development, and I believe every small progress matters. For me, coding isn’t just about writing lines of code. It’s about understanding logic, building something from scratch, and creating value through technology.
                         </p>
-                        <p class="text-gray-300 mb-6 leading-relaxed">
+                        <p class="text-neutral-400 mb-6 leading-relaxed">
                             I love exploring, trying new things, and learning from every mistake. I believe technology isn’t only about progress, but about how we can make people’s lives easier. I strive to keep learning, adapting, and creating meaningful solutions from simple ideas to real products.
                         </p>
                     </div>
@@ -134,7 +134,7 @@
         </section>
 
         <!-- Projects Section -->
-        <section id="projects" class="section py-20 px-4 sm:px-6 lg:px-8">
+        <section id="projects" class="section py-20 px-4 sm:px-6 lg:px-8 bg-neutral-800">
             <div class="max-w-7xl mx-auto">
                 <div class="flex items-center gap-3 mb-12">
                     <svg class="text-red-600 w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -149,7 +149,7 @@
         </section>
 
         <!-- Skills Section -->
-        <section id="skills" class="section py-20 px-4 sm:px-6 lg:px-8 bg-gray-900">
+        <section id="skills" class="section py-20 px-4 sm:px-6 lg:px-8 bg-neutral-900">
             <div class="max-w-7xl mx-auto">
                 <div class="flex items-center gap-3 mb-12">
                     <svg class="text-red-600 w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -159,7 +159,7 @@
                 </div>
                 <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                     <!-- Frontend Skills -->
-                    <div class="bg-black p-6 rounded-lg border border-gray-800">
+                    <div class="bg-black p-6 rounded-lg border border-gray-800 ">
                         <h3 class="text-xl font-bold mb-4 text-red-600">Hard Skills</h3>
                         <ul class="space-y-2">
                             <li class="text-gray-300 flex items-center gap-2">
@@ -239,7 +239,7 @@
         </section>
 
         <!-- Contact Section -->
-        <section id="contact" class="section py-20 px-4 sm:px-6 lg:px-8">
+        <section id="contact" class="section py-20 px-4 sm:px-6 lg:px-8 bg-neutral-950">
             <div class="max-w-7xl mx-auto">
                 <div class="flex items-center gap-3 mb-12">
                     <svg class="text-red-600 w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -289,7 +289,7 @@
                         type="text" 
                         name="from_name" 
                         placeholder="Name" 
-                        class="w-full bg-gray-900 border border-gray-800 rounded-lg px-4 py-3 focus:outline-none focus:border-red-600 transition-colors"
+                        class="w-full bg-neutral-900 border border-gray-800 rounded-lg px-4 py-3 focus:outline-none focus:border-red-600 transition-colors"
                         required
                     >
                     
@@ -297,7 +297,7 @@
                         type="email" 
                         name="from_email" 
                         placeholder="Email" 
-                        class="w-full bg-gray-900 border border-gray-800 rounded-lg px-4 py-3 focus:outline-none focus:border-red-600 transition-colors"
+                        class="w-full bg-neutral-900 border border-gray-800 rounded-lg px-4 py-3 focus:outline-none focus:border-red-600 transition-colors"
                         required
                     >
                     
@@ -305,7 +305,7 @@
                         name="message" 
                         placeholder="Message" 
                         rows="5" 
-                        class="w-full bg-gray-900 border border-gray-800 rounded-lg px-4 py-3 focus:outline-none focus:border-red-600 transition-colors resize-none"
+                        class="w-full bg-neutral-900 border border-gray-800 rounded-lg px-4 py-3 focus:outline-none focus:border-red-600 transition-colors resize-none"
                         required
                     ></textarea>
 
@@ -322,7 +322,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="bg-gray-900 py-8 px-4 sm:px-6 lg:px-8 border-t border-gray-800">
+    <footer class="bg-neutral-950 py-8 px-4 sm:px-6 lg:px-8 border-t border-gray-800">
         <div class="max-w-7xl mx-auto text-center text-gray-400">
             <p>&copy; 2025 Hizharu. All rights reserved.</p>
         </div>
