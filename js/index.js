@@ -42,14 +42,14 @@ const menuBtn = document.getElementById('menuBtn');
         });
 
         (function() {
-    emailjs.init("YOUR_PUBLIC_KEY"); // ganti dengan public key lo
+    emailjs.init("X07lIC_DEQhhOQSDo"); // ganti dengan public key lu
     })();
 
     document.getElementById('contact-form').addEventListener('submit', function(event) {
         event.preventDefault();
 
-        // ganti SERVICE_ID dan TEMPLATE_ID dengan yang dari EmailJS lo
-        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', this)
+        // jangan lupa diganti
+        emailjs.sendForm('service_z6zpulm', 'template_5btod1r', this)
         .then(() => {
             alert('✅ Message sent successfully!');
             this.reset();
